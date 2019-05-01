@@ -1,0 +1,315 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit2.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm2 *Form2;
+//---------------------------------------------------------------------------
+__fastcall TForm2::TForm2(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button3Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image1->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light1_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button11Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image9->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light1_OFF", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button4Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image2->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light2_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button5Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image3->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light3_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button6Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image4->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light4_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button7Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image5->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light5_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button8Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image6->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light6_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button9Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image7->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light7_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button10Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image8->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light8_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button1Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image17->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light9_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button19Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image20->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light10_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button21Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image21->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light11_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button23Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image23->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light12_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button25Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image26->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light13_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button27Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image27->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light14_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button29Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image30->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light15_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button31Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image31->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light16_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button33Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image33->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light17_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button35Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image36->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light18_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button37Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image37->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light19_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button39Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image39->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light20_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button41Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image42->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light21_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::Button43Click(TObject *Sender)
+{
+	  TIniFile *ini;
+if (OpenDialog1->Execute())
+ {
+   Image43->Picture->LoadFromFile(OpenDialog1->FileName);
+
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+   ini->WriteString ( "Device_ICO", "Light22_ON", OpenDialog1->FileName );
+   delete ini;
+ }
+}
+//---------------------------------------------------------------------------

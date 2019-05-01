@@ -1,0 +1,221 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit2H
+#define Unit2H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.Dialogs.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Imaging.pngimage.hpp>
+//---------------------------------------------------------------------------
+class TForm2 : public TForm
+{
+__published:	// IDE-managed Components
+	TGroupBox *GroupBox2;
+	TImage *Image1;
+	TLabel *Label3;
+	TLabel *Label4;
+	TImage *Image2;
+	TLabel *Label5;
+	TImage *Image3;
+	TLabel *Label6;
+	TImage *Image4;
+	TLabel *Label7;
+	TImage *Image5;
+	TLabel *Label8;
+	TImage *Image6;
+	TLabel *Label9;
+	TImage *Image7;
+	TLabel *Label10;
+	TImage *Image8;
+	TImage *Image9;
+	TImage *Image10;
+	TImage *Image11;
+	TImage *Image12;
+	TImage *Image13;
+	TImage *Image14;
+	TImage *Image15;
+	TImage *Image16;
+	TEdit *Edit3;
+	TButton *Button3;
+	TEdit *Edit4;
+	TButton *Button4;
+	TEdit *Edit5;
+	TButton *Button5;
+	TEdit *Edit6;
+	TButton *Button6;
+	TEdit *Edit7;
+	TButton *Button7;
+	TEdit *Edit8;
+	TButton *Button8;
+	TButton *Button9;
+	TButton *Button10;
+	TButton *Button11;
+	TButton *Button12;
+	TButton *Button13;
+	TButton *Button14;
+	TButton *Button15;
+	TButton *Button16;
+	TButton *Button17;
+	TButton *Button18;
+	TOpenDialog *OpenDialog1;
+	TEdit *Edit2;
+	TEdit *Edit1;
+	TLabel *Label2;
+	TEdit *Edit9;
+	TImage *Image17;
+	TImage *Image18;
+	TButton *Button1;
+	TButton *Button2;
+	TButton *Button19;
+	TButton *Button20;
+	TImage *Image19;
+	TImage *Image20;
+	TEdit *Edit10;
+	TLabel *Label11;
+	TLabel *Label12;
+	TEdit *Edit11;
+	TLabel *Label13;
+	TEdit *Edit12;
+	TLabel *Label14;
+	TEdit *Edit13;
+	TLabel *Label15;
+	TEdit *Edit14;
+	TLabel *Label16;
+	TEdit *Edit15;
+	TLabel *Label17;
+	TEdit *Edit16;
+	TImage *Image21;
+	TImage *Image22;
+	TButton *Button21;
+	TButton *Button22;
+	TImage *Image23;
+	TImage *Image24;
+	TButton *Button23;
+	TButton *Button24;
+	TButton *Button25;
+	TButton *Button26;
+	TImage *Image25;
+	TImage *Image26;
+	TImage *Image27;
+	TImage *Image28;
+	TButton *Button27;
+	TButton *Button28;
+	TButton *Button29;
+	TButton *Button30;
+	TImage *Image29;
+	TImage *Image30;
+	TImage *Image31;
+	TImage *Image32;
+	TButton *Button31;
+	TButton *Button32;
+	TLabel *Label18;
+	TEdit *Edit17;
+	TImage *Image33;
+	TImage *Image34;
+	TButton *Button33;
+	TButton *Button34;
+	TButton *Button35;
+	TButton *Button36;
+	TImage *Image35;
+	TImage *Image36;
+	TEdit *Edit18;
+	TLabel *Label19;
+	TLabel *Label20;
+	TEdit *Edit19;
+	TLabel *Label21;
+	TEdit *Edit20;
+	TLabel *Label22;
+	TEdit *Edit21;
+	TLabel *Label23;
+	TEdit *Edit22;
+	TLabel *Label24;
+	TEdit *Edit23;
+	TLabel *Label25;
+	TEdit *Edit24;
+	TImage *Image37;
+	TImage *Image38;
+	TButton *Button37;
+	TButton *Button38;
+	TImage *Image39;
+	TImage *Image40;
+	TButton *Button39;
+	TButton *Button40;
+	TButton *Button41;
+	TButton *Button42;
+	TImage *Image41;
+	TImage *Image42;
+	TImage *Image43;
+	TImage *Image44;
+	TButton *Button43;
+	TButton *Button44;
+	TButton *Button45;
+	TButton *Button46;
+	TImage *Image45;
+	TImage *Image46;
+	TImage *Image47;
+	TImage *Image48;
+	TButton *Button47;
+	TButton *Button48;
+	TLabel *Label26;
+	TEdit *Edit25;
+	TImage *Image49;
+	TImage *Image50;
+	TButton *Button49;
+	TButton *Button50;
+	TButton *Button51;
+	TButton *Button52;
+	TImage *Image51;
+	TImage *Image52;
+	TEdit *Edit26;
+	TLabel *Label27;
+	TLabel *Label28;
+	TEdit *Edit27;
+	TImage *Image53;
+	TImage *Image54;
+	TButton *Button53;
+	TButton *Button54;
+	TButton *Button55;
+	TButton *Button56;
+	TImage *Image55;
+	TImage *Image56;
+	TEdit *Edit28;
+	TLabel *Label29;
+	TLabel *Label30;
+	TEdit *Edit29;
+	TImage *Image57;
+	TImage *Image58;
+	TButton *Button57;
+	TButton *Button58;
+	TButton *Button59;
+	TButton *Button60;
+	TImage *Image59;
+	TImage *Image60;
+	TEdit *Edit30;
+	TLabel *Label31;
+	TLabel *Label32;
+	TEdit *Edit31;
+	TImage *Image61;
+	TImage *Image62;
+	TButton *Button61;
+	TButton *Button62;
+	TButton *Button63;
+	TButton *Button64;
+	TImage *Image63;
+	TImage *Image64;
+	TEdit *Edit32;
+	TLabel *Label33;
+	TLabel *Label1;
+	TEdit *Edit33;
+	TButton *Button65;
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm2(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm2 *Form2;
+//---------------------------------------------------------------------------
+#endif

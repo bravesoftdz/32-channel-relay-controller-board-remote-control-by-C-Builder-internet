@@ -1,0 +1,210 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Imaging.pngimage.hpp>
+#include <Vcl.ComCtrls.hpp>
+#include <Vcl.Menus.hpp>
+#include <IdBaseComponent.hpp>
+#include <IdComponent.hpp>
+#include <IdHTTP.hpp>
+#include <IdTCPClient.hpp>
+#include <IdTCPConnection.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TLabel *Label1;
+	TLabel *Label2;
+	TLabel *Label3;
+	TLabel *Label4;
+	TImage *Image2;
+	TImage *Image1;
+	TImage *Image3;
+	TImage *Image4;
+	TLabel *Label5;
+	TLabel *Label6;
+	TLabel *Label7;
+	TLabel *Label8;
+	TImage *Image5;
+	TImage *Image6;
+	TImage *Image7;
+	TImage *Image8;
+	TButton *Button1;
+	TButton *Button2;
+	TButton *Button3;
+	TButton *Button4;
+	TButton *Button5;
+	TButton *Button6;
+	TButton *Button7;
+	TButton *Button8;
+	TButton *Button9;
+	TButton *Button10;
+	TButton *Button11;
+	TButton *Button12;
+	TButton *Button13;
+	TButton *Button14;
+	TButton *Button15;
+	TButton *Button16;
+	TLabel *Label9;
+	TLabel *Label10;
+	TLabel *Label11;
+	TLabel *Label12;
+	TImage *Image9;
+	TImage *Image10;
+	TImage *Image11;
+	TImage *Image12;
+	TLabel *Label13;
+	TLabel *Label14;
+	TLabel *Label15;
+	TLabel *Label16;
+	TImage *Image13;
+	TImage *Image14;
+	TImage *Image15;
+	TImage *Image16;
+	TButton *Button17;
+	TButton *Button18;
+	TButton *Button19;
+	TButton *Button20;
+	TButton *Button21;
+	TButton *Button22;
+	TButton *Button23;
+	TButton *Button24;
+	TButton *Button25;
+	TButton *Button26;
+	TButton *Button27;
+	TButton *Button28;
+	TButton *Button29;
+	TButton *Button30;
+	TButton *Button31;
+	TButton *Button32;
+	TLabel *Label17;
+	TLabel *Label18;
+	TLabel *Label19;
+	TLabel *Label20;
+	TImage *Image17;
+	TImage *Image18;
+	TImage *Image19;
+	TImage *Image20;
+	TLabel *Label21;
+	TLabel *Label22;
+	TLabel *Label23;
+	TLabel *Label24;
+	TImage *Image21;
+	TImage *Image22;
+	TImage *Image23;
+	TImage *Image24;
+	TButton *Button33;
+	TButton *Button34;
+	TButton *Button35;
+	TButton *Button36;
+	TButton *Button37;
+	TButton *Button38;
+	TButton *Button39;
+	TButton *Button40;
+	TButton *Button41;
+	TButton *Button42;
+	TButton *Button43;
+	TButton *Button44;
+	TButton *Button45;
+	TButton *Button46;
+	TButton *Button47;
+	TButton *Button48;
+	TLabel *Label25;
+	TLabel *Label26;
+	TLabel *Label27;
+	TLabel *Label28;
+	TImage *Image25;
+	TImage *Image26;
+	TImage *Image27;
+	TImage *Image28;
+	TLabel *Label29;
+	TLabel *Label30;
+	TLabel *Label31;
+	TLabel *Label32;
+	TImage *Image29;
+	TImage *Image30;
+	TImage *Image31;
+	TImage *Image32;
+	TButton *Button49;
+	TButton *Button50;
+	TButton *Button51;
+	TButton *Button52;
+	TButton *Button53;
+	TButton *Button54;
+	TButton *Button55;
+	TButton *Button56;
+	TButton *Button57;
+	TButton *Button58;
+	TButton *Button59;
+	TButton *Button60;
+	TButton *Button61;
+	TButton *Button62;
+	TButton *Button63;
+	TButton *Button64;
+	TMainMenu *MainMenu1;
+	TMenuItem *System1;
+	TMenuItem *config1;
+	TMenuItem *Exit1;
+	TStatusBar *StatusBar1;
+	TIdHTTP *IdHTTP1;
+	TMenuItem *Skin1;
+	TMenuItem *Style11;
+	TMenuItem *Style21;
+	TMenuItem *Style31;
+	TMenuItem *Style41;
+	void __fastcall Exit1Click(TObject *Sender);
+	void __fastcall config1Click(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall Button2Click(TObject *Sender);
+	void __fastcall Style11Click(TObject *Sender);
+	void __fastcall Style21Click(TObject *Sender);
+	void __fastcall FormCreate(TObject *Sender);
+	void __fastcall Style31Click(TObject *Sender);
+	void __fastcall Style41Click(TObject *Sender);
+	void __fastcall Button63Click(TObject *Sender);
+	void __fastcall Button64Click(TObject *Sender);
+	void __fastcall Button3Click(TObject *Sender);
+	void __fastcall Button5Click(TObject *Sender);
+	void __fastcall Button7Click(TObject *Sender);
+	void __fastcall Button9Click(TObject *Sender);
+	void __fastcall Button11Click(TObject *Sender);
+	void __fastcall Button13Click(TObject *Sender);
+	void __fastcall Button17Click(TObject *Sender);
+	void __fastcall Button19Click(TObject *Sender);
+	void __fastcall Button15Click(TObject *Sender);
+	void __fastcall Button21Click(TObject *Sender);
+	void __fastcall Button23Click(TObject *Sender);
+	void __fastcall Button25Click(TObject *Sender);
+	void __fastcall Button27Click(TObject *Sender);
+	void __fastcall Button29Click(TObject *Sender);
+	void __fastcall Button31Click(TObject *Sender);
+	void __fastcall Button33Click(TObject *Sender);
+	void __fastcall Button35Click(TObject *Sender);
+	void __fastcall Button37Click(TObject *Sender);
+	void __fastcall Button39Click(TObject *Sender);
+	void __fastcall Button41Click(TObject *Sender);
+	void __fastcall Button43Click(TObject *Sender);
+	void __fastcall Button45Click(TObject *Sender);
+	void __fastcall Button47Click(TObject *Sender);
+	void __fastcall Button49Click(TObject *Sender);
+	void __fastcall Button51Click(TObject *Sender);
+	void __fastcall Button53Click(TObject *Sender);
+	void __fastcall Button55Click(TObject *Sender);
+	void __fastcall Button57Click(TObject *Sender);
+	void __fastcall Button59Click(TObject *Sender);
+	void __fastcall Button61Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif
